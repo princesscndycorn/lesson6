@@ -10,7 +10,7 @@ jobs:
     concurrency:
       group: test
     steps:
-      - run: sleep 15
+      - runs: sleep 15
 
   deploy-job:
     name: deploy job
